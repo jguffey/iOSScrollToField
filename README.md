@@ -17,5 +17,5 @@ The view must be able to extend taller than the view controller, that's why I've
 The scroll view doesn't seem to care about child textfields becoming active, so we must make it care. We use the UITextFieldDelegate method to find the position of the textField when it becomes active. We use the KeyboardWillApepar event to make sure we know what size the keyboard will be (different devices have different keyboard sizes!) and we use that to calculate a new position for the scroll view to use. Finally, we just animate the scroll view to the field. This should probably be easier.
 
 ## Credit
-(Getting the height of the keyboard)[https://stackoverflow.com/questions/31774006/how-to-get-height-of-keyboard]
-(Getting the position of the text field)[https://stackoverflow.com/questions/13056004/how-to-make-a-uiscrollview-auto-scroll-when-a-uitextfield-becomes-a-first-respon/33256560]
+[Getting the height of the keyboard](https://stackoverflow.com/questions/31774006/how-to-get-height-of-keyboard)
+[Getting the position of the text field](https://stackoverflow.com/questions/13056004/how-to-make-a-uiscrollview-auto-scroll-when-a-uitextfield-becomes-a-first-respon/33256560)
