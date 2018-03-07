@@ -18,4 +18,5 @@ The scroll view doesn't seem to care about child textfields becoming active, so 
 
 ## Credit
 [Getting the height of the keyboard](https://stackoverflow.com/questions/31774006/how-to-get-height-of-keyboard)
+
 [Getting the position of the text field](https://stackoverflow.com/questions/13056004/how-to-make-a-uiscrollview-auto-scroll-when-a-uitextfield-becomes-a-first-respon/33256560)
